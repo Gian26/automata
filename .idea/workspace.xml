@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3f37a5e5-f45d-4352-a7e5-98e7c6c45fc9" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.README.md.swp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DFA.py" afterPath="$PROJECT_DIR$/DFA.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="automata.iws" />
