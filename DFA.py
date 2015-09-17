@@ -1,13 +1,6 @@
 __author__ = 'ING26'
 from collections import defaultdict
 
-# #
-#   
-#
-#
-#
-# #
-
 # abrir archivo de texto
 text_file = open("Entrado.txt", "r")
 # leer el texto y almacenar el contenido en un arreglo
