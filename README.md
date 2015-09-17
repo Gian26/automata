@@ -1,2 +1,2 @@
 # automata
-automata finito deterministico
+automata finito deterministico en python
