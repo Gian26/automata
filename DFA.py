@@ -5,15 +5,15 @@ from collections import defaultdict
 text_file = open("Entrado.txt", "r")
 # leer el texto y almacenar el contenido en un arreglo
 # e ir dividiendo la cadena en bloques despues de las comas
-datos = text_file.read().split(',')
+datos = text_file.read().splitlines()
 
 # alacenamos los bloques de datos en sus variables correspondientes
-q            = datos[0].split(" ")      # conjunto de estados
+q            = datos[0].split(" ")     # conjunto de estados
 sigma        = datos[1].split(" ")      # el alfabeto del lenguaje
 inicio       = datos[2].split(" ")[0]   # el estado inicial del automata
                                         # como retorna una lista y es un solo elemento se saca directamente
 finales      = datos[3].split(" ")      # conjunto de estados finales del automata
-cambios      = datos[4].split(" ")      # arreglo de tabla de transiciones
+cambios      = datos[4].split(" ")    # arreglo de tabla de transiciones
 arregloTemporal = []                    # almacenara la cadena dividida de la tabla de transicion
 
 # recorrer la cadena del archivo para dividir la cadena despues de cada guion medio
