@@ -3,7 +3,6 @@ from collections import defaultdict
 
 # abrir archivo de texto
 text_file = open("Entrado.txt", "r")
-print text_file
 
 # leer el texto y almacenar el contenido en un arreglo
 # e ir dividiendo la cadena en bloques despues de las comas
